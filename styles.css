@@ -163,3 +163,75 @@ nav ul li a{
     text-align: center;
     padding-bottom: 40px;
 }
+
+
+
+.diensten{
+  /* padding: 30px; */
+  border-radius: 20%;
+  margin: 20% 10%;
+  /* position: relative;
+  box-shadow: #25316D; */
+}
+
+.card{
+  padding: 40px;
+  border-radius: 0%;
+  border-width: 3px;
+  border-color: #0A1931;
+}
+
+.uitleg{
+  margin: 20% 10%;
+}
+
+.uitleg-box-links{
+  padding-right: 30px;
+}
+
+.uitleg-box-rechts{
+  padding-left: 30px;
+}
+
+.portfolio{
+  margin: 20% 10%;
+}
+
+.portfolio h1{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card-portfolio{
+  margin: 20px;
+}
+
+.afbeelding1{
+  width: 200px;
+  height: 200px;
+  float: auto;  
+}
+
+.afbeelding2{
+  width: 200px;
+  height: 200px;
+  float: right;  
+}
+
+.afbeelding3{
+  width: 200px;
+  height: 200px;
+  float: auto;  
+}
+
+.titel2{
+  text-align: right;
+}
+
+.over{
+  margin: 20% 10%;
+}
+
+.contact{
+  margin: 20% 10%;
+}

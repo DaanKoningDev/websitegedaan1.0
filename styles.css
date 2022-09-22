@@ -95,9 +95,9 @@ nav ul li a{
     display: none;
     position: absolute;
     top: -90px;
-    left: -30px;
+    left: -33px;
     height: calc(100vh - 80px);
-    width: 98%;
+    width: 104.01%;
     z-index: -2;
   }
   
@@ -144,6 +144,7 @@ nav ul li a{
     #hamburger-icon {
       display: block;
     }
+    
   }
 
 
@@ -167,7 +168,7 @@ nav ul li a{
 
 
 .diensten{
-  /* padding: 30px; */
+  padding-top: 100px;
   border-radius: 20%;
   margin: 20% 10%;
   /* position: relative;
@@ -183,6 +184,7 @@ nav ul li a{
 
 .uitleg{
   margin: 20% 10%;
+  padding-top: 100px;
 }
 
 .uitleg-box-links{
@@ -190,11 +192,13 @@ nav ul li a{
 }
 
 .uitleg-box-rechts{
-  padding-left: 30px;
+  /* padding-left: 30px; */
 }
 
 .portfolio{
   margin: 20% 10%;
+  padding-top: 100px;
+
 }
 
 .portfolio h1{
@@ -230,8 +234,12 @@ nav ul li a{
 
 .over{
   margin: 20% 10%;
+  padding-top: 100px;
+
 }
 
 .contact{
   margin: 20% 10%;
+  padding-top: 100px;
+
 }

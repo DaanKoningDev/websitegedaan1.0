@@ -243,3 +243,18 @@ nav ul li a{
   padding-top: 100px;
 
 }
+
+.contact h3{
+  padding: 20px 0;
+}
+
+.info-links{
+  text-align: center;
+  margin-top: 150px;
+}
+
+.info-links a{
+  text-decoration: none;
+  padding: 10px 40px;
+}
+

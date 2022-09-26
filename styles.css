@@ -4,6 +4,8 @@ body {
     font-family: sans-serif;  
 }
 
+/* HEADER / NAVBAR */
+
 header {
     width: 100%;
     height: 80px;
@@ -18,7 +20,7 @@ header {
 
 .brand a{
     color: #FFC947;
-    padding: 25px 0 0 10%;
+    padding: 22px 0 0 10%;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: bold;
@@ -29,7 +31,7 @@ header {
 nav ul{
     display: flex;
     margin: 0;
-    padding: 29px 20px;
+    padding: 29px 30px 29px 20px;
     float: right;
 }
 
@@ -52,6 +54,7 @@ nav ul li a{
     
 }
 
+/* HAMBURGER / MOBILE MENU */
 
 #hamburger-icon {
     margin: auto 0;
@@ -131,22 +134,10 @@ nav ul li a{
   .bottom-mobile-bar{
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-
-
   }
 
 
-  @media only screen and (max-width: 1000px) {
-    header nav {
-      display: none;
-    }
-  
-    #hamburger-icon {
-      display: block;
-    }
-    
-  }
-
+/* INTRO CONTAINER */
 
   .container-1{
     background-color: #466cb9;
@@ -166,13 +157,18 @@ nav ul li a{
 }
 
 
+/* DIENSTEN */
 
 .diensten{
   padding-top: 100px;
   border-radius: 20%;
-  margin: 20% 10%;
+  margin: 20% 10% 5%;
   /* position: relative;
   box-shadow: #25316D; */
+}
+
+.diensten h1{
+  text-align: center;
 }
 
 .card{
@@ -182,18 +178,24 @@ nav ul li a{
   border-color: #0A1931;
 }
 
+.card-diensten{
+  margin: 20px;
+}
+
 .uitleg{
-  margin: 20% 10%;
-  padding-top: 100px;
+  margin: 0% 10%;
+  /* padding-top: 100px; */
 }
 
 .uitleg-box-links{
   padding-right: 30px;
 }
 
-.uitleg-box-rechts{
-  /* padding-left: 30px; */
-}
+/* .uitleg-box-rechts{
+  padding-left: 30px;
+} */
+
+/* PORTFOLIO */
 
 .portfolio{
   margin: 20% 10%;
@@ -232,20 +234,27 @@ nav ul li a{
   text-align: right;
 }
 
+/* OVER */
+
 .over{
   margin: 20% 10%;
   padding-top: 100px;
 
 }
 
+/* CONTACT */
+
 .contact{
   margin: 20% 10%;
   padding-top: 100px;
-
 }
 
 .contact h3{
   padding: 20px 0;
+}
+
+.card-contact{
+  margin: 20px;
 }
 
 .info-links{
@@ -255,6 +264,37 @@ nav ul li a{
 
 .info-links a{
   text-decoration: none;
-  padding: 10px 40px;
+  padding: 10px 10px;
 }
 
+/* MEDIA */
+
+@media only screen and (max-width: 1000px) {
+  header nav {
+    display: none;
+  }
+
+  #hamburger-icon {
+    display: block;
+  }
+  
+.portfolio-box-img{
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.titel2{
+text-align: left;
+}
+
+.afbeelding2{
+  float: none;
+}
+
+.header-brand-contact{
+  margin-top: 40px;
+}
+
+}

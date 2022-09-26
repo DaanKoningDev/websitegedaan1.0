@@ -257,15 +257,32 @@ nav ul li a{
   margin: 20px;
 }
 
+/* FAQ / ACCORDION */
+
+.faq{
+  margin-top: 80px;
+}
+
+.accordion-item{
+  border: 1px solid;
+  color: #0A1931;
+}
+
+
 .info-links{
   text-align: center;
-  margin-top: 150px;
+  margin: 100px auto 10px;
 }
 
 .info-links a{
   text-decoration: none;
-  padding: 10px 10px;
+  padding: 30px;
+  color: #0A1931;
 }
+.info-links a:hover{
+  color: #FFC947;
+}
+
 
 /* MEDIA */
 
